@@ -1,0 +1,9 @@
+3
+x cb
+y ab
+z xa
+ab cb
+ab x
+x y
+z y
+z xay

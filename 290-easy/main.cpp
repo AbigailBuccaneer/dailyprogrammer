@@ -13,7 +13,7 @@ bool is_kaprekar_number(int X, int base = 10) {
     return false;
 }
 
-int main(int argc, char** argv) {
+int main() {
     std::string line;
     int min;
     int max;
@@ -32,4 +32,5 @@ int main(int argc, char** argv) {
         }
         std::cout << '\n';
     }
+    return 0;
 }

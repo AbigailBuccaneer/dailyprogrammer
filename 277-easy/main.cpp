@@ -5,7 +5,7 @@
 template<typename M, typename N>
 constexpr std::common_type_t<M, N> gcd(M m, N n) {
     return n ? gcd(n, m % n) : m;
-};
+}
 
 int main() {
     std::string line;
@@ -15,4 +15,5 @@ int main() {
         int divisor = gcd(m, n);
         std::cout << m / divisor << ' ' << n / divisor << '\n';
     }
+    return 0;
 }
